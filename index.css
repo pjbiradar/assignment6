@@ -1,0 +1,431 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+}
+.camel{
+    background-color: brown;
+    width: 55px;
+    height: 54px;
+}
+
+
+.one{
+    font-size: 485%;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    top: 359px;
+    left: 99px;
+}
+.two{
+    font-size: 94%;
+    color: white;
+    left: 104px;
+    position: absolute;
+    top: 440px;
+}
+.btn{
+    position: absolute;
+    top: 529px;
+    height: 44px;
+    border: 2px solid white;
+    left: 105px;
+    width: 193px;
+    border-radius:30px;
+}
+.three{
+    position: absolute;
+    right: 500px;
+    color: white;
+    top: 3px;
+}
+.four{
+    position: absolute;
+    right: 400px;
+    color: white;
+    top: 3px;
+
+}
+.five{
+    position: absolute;
+    right: 300px;
+    color: white;
+    top: 3px;
+}
+.fa-bars{
+    font-size: 900px;
+    width: 300px;
+    position: absolute;
+    right: 3px;
+}
+.western{
+    position: absolute;
+    right: 496px;
+    width: 279px;
+    top: 90px;
+    border-radius: 13px;
+    height: 279px;
+    animation: transform 1s linear;
+}
+.western:hover{
+    transform: translateY(10px);
+}
+
+
+.bagawat{
+    position: absolute;
+    right: 165px;
+    width: 279px;
+    top: 90px;
+    border-radius: 13px;
+    height: 279px;
+    animation: transform 1s linear;
+}
+.bagawat:hover{
+    transform: translateY(10px);
+}
+.pyramid{
+    position: absolute;
+    right: 496px;
+    width: 279px;
+    top: 413px;
+    border-radius: 30px;
+    height: 279px;
+    animation: transform 1s linear;
+}
+.pyramid:hover{
+    transform: translateY(10px);
+}
+.desert{
+    position: absolute;
+    right: 165px;
+    width: 279px;
+    top: 420px;
+    border-radius: 30px;
+    height: 279px;
+    animation: transform 1s linear;
+
+}
+.desert:hover{
+    transform: translateY(10px);
+}
+
+.fun{
+    color: white;
+    font-size: larger;
+    position: absolute;
+    right: 620px;
+    top: 76px;
+ 
+}
+
+.para{
+    color: white;
+    font-size: x-small;
+    position: absolute;
+    right: 585px;
+    top: 126px;
+}
+.fun2{
+    color: white;
+    font-size: larger;
+    position: absolute;
+    right: 306px;
+    top: 76px;
+}
+
+.para2{
+    color: white;
+    font-size: x-small;
+    position: absolute;
+    right: 241px;
+    top: 126px;
+}
+.fun3{
+    color: white;
+    font-size: larger;
+    position: absolute;
+    right: 606px;
+    top: 410px;
+}
+.para3{
+    color: white;
+    font-size: x-small;
+    position: absolute;
+    right: 585px;
+    top: 470px;
+}
+.fun4{
+    color: white;
+    font-size: larger;
+    position: absolute;
+    right: 277px;
+    top: 409px;
+}
+.para4{
+    color: white;
+    font-size: x-small;
+    position: absolute;
+    right: 249px;
+    top: 467px;
+}
+
+@media screen and (min-width:360px) and (max-width:640px) {
+    .one{
+        position: absolute;
+    top: 77px;
+    left: 45px;
+    font-size: xx-large;
+    }
+    .two{
+        position: absolute;
+        top: 99px;
+        left: 45px;
+        
+    }
+    .btn{
+        position: absolute;
+        top: 220px;
+        left: 41px;
+
+    }
+    .three{
+        position: absolute;
+        top: 2px;
+        right: 139px;
+    }
+    .four{
+        position: absolute;
+    top: 2px;
+    right: 56px;
+    }
+    .five{
+        position: absolute;
+        top: 2px;
+        right: -21px;
+    }
+    .western{
+        position: absolute;
+    top: 297px;
+    left: 93px;
+    }   
+
+    .bagawat{
+        position: absolute;
+        top: 588px;
+        left: 93px;
+        
+    }
+    .pyramid{
+        position: absolute;
+        top: 883px;
+        left: 93px;
+    }
+    .desert{
+        position: absolute;
+        top: 1182px;
+        left: 93px;
+    }
+    .fun{
+        position: absolute;
+        left: 128px;
+        top: 289px;
+        width: 400px;
+    }
+    .para{
+        position: absolute;
+        left: 131px;
+        top: 338px;
+        width: 174px;
+
+    }
+    .fun2{
+        position: absolute;
+    left: 128px;
+    top: 572px;
+    width: 400px;
+
+    }
+    .para2{
+        position: absolute;
+        left: 131px;
+        top: 625px;
+        width: 300px;
+
+    }
+    .fun3{
+        position: absolute;
+        left: 128px;
+        top: 881px;
+        width: 400px;
+
+    }
+    .para3{
+        position: absolute;
+        left: 131px;
+        top: 935px;
+        width: 400px;
+
+
+    }
+    .fun4{
+        position: absolute;
+        left: 128px;
+        top: 1190px;
+        width: 400px;
+
+
+    }
+    .para4{
+        position: absolute;
+        left: 131px;
+        top: 1243px;
+        width: 400px;
+
+    }
+    .fa-bars  {
+        position: absolute;
+    right: -612px;
+    top: 28px;
+    color: white;
+    }
+}
+
+@media screen and  (max-width:856px){
+    .one{
+        position: absolute;
+        left: 76px;
+        top: 74px;
+        font-size: 37px;
+    }
+    .two{
+        position: relative;
+    left: 70px;
+    top: 48px;
+    }
+
+    .btn{
+        position: absolute;
+        top: 221px;
+        left: 72px;
+
+    }
+    .three{
+        position: absolute;
+    top: 2px;
+    right: -94px;
+    }
+    .four{
+        position: absolute;
+        top: 2px;
+        right: -193px;
+      
+    }
+    .five{
+        position: absolute;
+        top: 2px;
+        right: -284px;
+    }
+    .western{
+        position: absolute;
+        top: 297px;
+        height: 402px;
+        width: 611px;
+        left: 72px;
+    }    
+    .bagawat{
+        position: absolute;
+        top: 732px;
+        height: 402px;
+        width: 611px;
+        left: 72px;
+        
+    }
+    .pyramid{
+        position: absolute;
+        top: 1172px;
+        height: 402px;
+        width: 611px;
+        left: 72px;
+    }
+    .desert{
+        position: absolute;
+        height: 402px;
+        width: 611px;
+        left: 72px;
+        top: 1630px;
+    }
+    .fun{
+        position: absolute;
+        left: 128px;
+        top: 289px;
+        width: 400px;
+    }
+    .para{
+        position: absolute;
+        left: 131px;
+        top: 338px;
+        width: 174px;
+
+    }
+    .fun2{
+        position: absolute;
+        left: 128px;
+        top: 723px;
+        width: 445px;
+    }
+
+    .para2{
+        position: absolute;
+        left: 131px;
+        top: 777px;
+        width: 209px;
+    }
+    .fun3{
+        position: absolute;
+        left: 128px;
+        top: 1164px;
+        width: 400px;
+
+    }
+    .para3{
+        position: absolute;
+    left: 131px;
+    top: 1213px;
+    width: 366px;
+
+    }
+    .fun4{
+        position: absolute;
+        left: 128px;
+        top: 1650px;
+        width: 400px;
+
+
+    }
+    .para4{
+        position: absolute;
+        left: 131px;
+        top: 1704px;
+
+    }
+    .fa-bars  {
+        position:absolute;
+        right: -31;
+        top: 28;
+        color: white;
+    }
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
