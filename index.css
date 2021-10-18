@@ -168,7 +168,12 @@ body{
     right: 249px;
     top: 467px;
 }
-
+.fa-bars  {
+    position: absolute;
+    right: -26px;
+    top: 28px;
+    color: white;
+}
 @media screen and (min-width:360px) and (max-width:640px) {
     .one{
         position: absolute;
@@ -408,9 +413,9 @@ body{
         top: 1704px;
 
     }
-    .fa-bars  {
+    .fa-bars{
         position:absolute;
-        right: -31;
+        right: -600px;
         top: 28;
         color: white;
     }
